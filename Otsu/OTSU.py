@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-image = cv2.imread("medical_image.jpg", 0)
+image = cv2.imread("Otsu\medical_image.jpg", 0)
 
 
 ret, segmented = cv2.threshold(
@@ -12,7 +12,7 @@ ret, segmented = cv2.threshold(
     cv2.THRESH_BINARY + cv2.THRESH_OTSU
 )
 
-cv2.imwrite("otsu_result.png", segmented)
+cv2.imwrite("Otsu\otsu_result.png", segmented)
 
 
 print("Optimal Threshold:", ret)
