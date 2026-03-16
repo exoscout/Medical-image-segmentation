@@ -1,0 +1,5 @@
+Take given field and select random spots. 
+calculate the desired function or required field and iterate.
+create a function levy_flight which shifts position of a point by random.
+find the worst performing nests and replace them and find the most desired outcome.
+it is a metaheuristic process so might take multiple tries to find the best answer.
